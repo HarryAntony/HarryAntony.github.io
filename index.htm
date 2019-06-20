@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html language="en">
+<head>
+<meta charset=utf-8>
+<title>Welcome to MATV! </title>
+<link rel="stylesheet"
+			  type="text/css"
+			  href="cbootstrap.css"
+		      />
+<meta name="viewport" content="width=device-width, initial-scale=1">		  
+
+		<!-- import our own stylesheet -->
+		<link rel="stylesheet"
+			  type="text/css"
+			  href="cstylesheet.css"
+		      />	
+
+		<!-- import jQuery -->
+		<script src="jquery.min.js"></script>
+		<script src="jbootstrap.min.js"></script>
+		<script>  
+				function PlayVideo()  { 
+                   vid.play(); 
+										 } 
+		</script> 
+
+</head>
+
+
+
+<body>
+
+<nav class="navbar navbar-default">
+	  
+		 <ul class="nav navbar-nav">
+			  <li class="active"> <a href="index.htm">Welcome </a></li>
+			  <li>               <a href="ireservation.htm"> Reservation/Inquiry </a></li>
+			  <li>               <a href="igeolocation.htm"> Geolocation </a></li>
+			  <li> <a href="ireservation.htm"> Reservation/Inquiry </a></li>
+			   <li> 				<a href="isafety.htm"> Safety </a></li>
+         </ul>
+        
+	
+</nav>
+
+<div class="container" style="text-align:center;">
+	<div class="jumbotron" style="text-align":"center"  >
+		<h1>Welcome to <br>
+		 Maybeury ATV Resort!</h1>
+		<button id="myVideo" class="btn btn-info" onclick="PlayVideo()" > 
+		      Enjoy your stay with us! </button>
+	</div>
+	
+	</div class="row" height="30%">
+		
+		
+		
+		<div  >		
+			<video id="vid" controls height="400px" max-width="30%"  alt="ATV riders leaving MATV" style="float: left; padding-left:20%; margin-right: 50px;">
+					<source src="video01.mp4" alt="Riders leaving lodge." type="video/mp4"  >
+			</video>
+		</div>
+		 
+		<div width="100%" style="float: right; padding-right: 20%;">
+			<img src="mimage02.jpg"  alt="Billboard" />
+		</div>
+		
+	</div>	
+	
+</div>
+
+
+	
+</body>
+
+</html>

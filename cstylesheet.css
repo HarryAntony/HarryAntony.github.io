@@ -1,28 +1,31 @@
-fieldset {
-	display: block;
-	margin-left: 2px;
-	margin-right: 2px;
-	padding-top: 0.35em;
-	padding-bottom: 0.625em;
-	padding-left: 0.75em;
-	padding-right: 0.75em;
-	border: 2px groove (internal value);
+.crop-img{
+  max-height:200px;
+  max-width:100%;
 }
 
-h1 {
-	text-align:center
+.large-img{
+  max-width:100%;
 }
 
-.column {
-  float: left;
-  padding: 10px;
-  height: 700px; /* Should be removed. Only for demonstration */
+.carousel-img{
+    margin: auto;
+    padding: 10px;
+    max-height:300px;
+    max-width:100%;
+
 }
 
-.left {
-  width: 25%;
+/* 
+ * uncomment this for some css3 drop shadows and rounded corners.
+ */
+
+/*
+.thumbnail,.nav, .large-img, .crop-img{
+  border-radius: 25px;
+  padding-top:5px;
 }
 
-.right {
-  width: 75%;
+.thumbnail,.nav {
+  box-shadow: 10px 10px 5px #888888;
 }
+*/
