@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Safety</title>
+<title>History</title>
 <link rel="stylesheet"
 			  type="text/css"
 			  href="cbootstrap.css"
@@ -18,6 +18,8 @@
 		<!-- import jQuery -->
 		<script src="jquery.min.js"></script>
 		<script src="jbootstrap.min.js"></script>
+
+
 </head>
 
 
@@ -38,9 +40,83 @@
     </div>
 </nav>
 
+<div class="row">
+
+	<div class="col-md-3">
+		<h4 style="text-align:center"> We listed here for you some websites with historical information about Maybeury.</h4>
+		<p> Much of the information and pictures come from: <br> DizzyHarris1@yahoo.com<br>E. L. Harris<br>1718 Hamilton St<br> Warren, OH 44485</p>
+	</div>
+
+	<div class="col-md-3" style="color:brown; font-size:15px">
+		<ul>
+			<li> <button onclick="viewA()">Flat Top-Pocahontas Coalfield</button>  </li> 
+			<li> <button onclick="viewB()">Maybeury</button>  </li>
+			<li> <button onclick="viewC()">Company Store</button>  </li>
+			<li> <button onclick="viewD()">Bridge</button>  </li>
+			<li> <button onclick="viewE()">Switchback </button>  </li>
+			<li> <button onclick="viewF()">Cooper Tunnel</button>  </li>
+			<li> <button onclick="viewG()">Stationmaster</button>  </li>
+			<li> <button onclick="viewH()">flood</button>  </li>
+		</ul>  
+	</div>
+
+	<div class="col-md-4">
+		<img style="padding-left:5px" src="mimage80.jpg"  alt="Postcard 1900" width="90%"  />
+	</div class="col-md-2">
+
+	<div style="padding-left:7px;padding-right:7px">
+		<h4> Can you guess where we're located on this postcard from 1909?</h4>
+	</div>
+
+</div>
 
 
 
+
+
+
+
+
+	<iframe id="webviewer" src="http://coalcampusa.com/sowv/flattop/flattop.htm" width="80%" height="700" async class="center">
+	</iframe> 
+<script>	
+function viewA(){
+      var viewer=document.getElementById("webviewer");
+	  viewer.setAttribute("src","http://coalcampusa.com/sowv/flattop/flattop.htm")
+	 }
+function viewB(){
+      var viewer=document.getElementById("webviewer");
+	  viewer.setAttribute("src","http://shinbrierwv.com/maybeury")
+	 }
+ 
+function viewC(){
+      var viewer=document.getElementById("webviewer");
+	  viewer.setAttribute("src","http://shinbrierwv.com/maybeury/maybeury_wv_company_store_-_norfolk_collieries")
+	 }
+function viewD(){
+      var viewer=document.getElementById("webviewer");
+	  viewer.setAttribute("src","http://shinbrierwv.com/maybeury/maybeury_-_bridge_-_shamokin_tipple_-_coke_ovens_-_early_days")
+	 }	 
+function viewE(){
+      var viewer=document.getElementById("webviewer");
+	  viewer.setAttribute("src","http://coalcampusa.com/sowv/flattop/switchback-maybeury/switchback-maybeury.htm")
+	 }
+function viewF(){
+      var viewer=document.getElementById("webviewer");
+	  viewer.setAttribute("src","http://shinbrierwv.com/maybeury/jack_taylor_e-mail_tour")
+	 }
+function viewG(){
+      var viewer=document.getElementById("webviewer");
+	  viewer.setAttribute("src","http://shinbrierwv.com/maybeury/charley_duff_-_maybeury_stationmaster")
+	 }
+
+function viewH(){
+      var viewer=document.getElementById("webviewer");
+	  viewer.setAttribute("src","http://shinbrierwv.com/maybeury/maybeury_flood")
+	 }	 
+	 
+</script>
 
 </body>
 </html>
+
