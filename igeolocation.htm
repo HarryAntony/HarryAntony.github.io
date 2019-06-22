@@ -29,39 +29,55 @@
 
 <body style="height:90%;width=90%">
 
-<nav class="navbar navbar-default navbar-fixed-top">
-	  <div class="container">
-		 <ul class="nav navbar-nav">
-          <li > <a href="index.htm">Welcome </a></li>
-          <li>               <a href="ireservation.htm"> Reservation/Inquiry </a></li>
-		  <li class="active"> (Google Maps) </li>
-	      <li>			 (Safety) </li>
-         </ul>
-        
-	 </div>
+<nav class="navbar navbar-default">
+	<div class="container">
+		<ul class="nav navbar-nav">
+              <li>              	<a href="index.htm">       Welcome 			</a></li>
+              <li class="active"> 	<a href="igeolocation.htm">	Geolocation	    	</a></li>
+			  <li>					<a href="ipictures.htm">    Pictures		    </a></li>
+			  <li> 			 		<a href="ireservation.htm">	Inquiry            	</a></li>
+			  <li>	     		 	<a href="inearby.htm">    	Nearby		    	</a></li>
+			  <li>	     			<a href="ihistory.htm">    	History		    	</a></li>
+			  <li>	    		 	<a href="isafety.htm">      Safety			    </a></li>
+              <li> 	             	<a href="iblog.htm">        Blog               	</a></li>
+		</ul>
+    </div>
 </nav>
-<br>
-
-<!--<h1>MATV Geolocation</h1>-->
 
 
+
+<h2> MATV </h2>	
+	<div class="row-fluid">
+		<div class="col-md-12 col-sm-12">
+			 <img  style="width:80%; padding-left:30%; padding-right:20%;" src="mimage10.jpg"/>
+		 </div>
+	</div>
+	
+<h2> The National Coal Heritage Trail </h2>	
+	<div  height="400px" >	 
+		 <div class="col-md-12 col-sm-12">
+			 <img  style="width:100%" src="mimage12.png"/>
+		 </div>
+		 		 
+	</div>
+
+<!--
 <div id="googleMap" style="height:100%; width 90% "></div>
+	<script>
+		var map;
+		function initMap() {
+		map = new google.maps.Map(document.getElementById('googleMap'), {
+		center: {lat: 37.369039, lng: -81.355},
+		zoom: 13
+		});
+		}
+	</script>
 
-
-<script>
-  var map;
-  function initMap() {
-	map = new google.maps.Map(document.getElementById('googleMap'), {
-	  center: {lat: 37.369039, lng: -81.355},
-	  zoom: 13
-	});
-  }
-</script>
-
-<script src="http://maps.googleapis.com/maps/api/js?key= &callback=initMap"
-async defer></script>
-
-<h5>Please note that the pictures on streetview are outdated......</h5>
+	<script src="http://maps.googleapis.com/maps/api/js?key= &callback=initMap"
+	async defer></script>
+	<h5>Please note that the pictures on streetview are outdated......</h5>
+</div>
+-->
 
 </body>
 

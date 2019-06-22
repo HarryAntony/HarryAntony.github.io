@@ -1,3 +1,11 @@
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+		}
+
+/*
 .crop-img{
   max-height:200px;
   max-width:100%;
@@ -15,17 +23,35 @@
 
 }
 
-/* 
- * uncomment this for some css3 drop shadows and rounded corners.
- */
 
-/*
-.thumbnail,.nav, .large-img, .crop-img{
-  border-radius: 25px;
-  padding-top:5px;
+.center {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 50%;
+		}
+fieldset {
+	display: block;
+	margin-left: 2px;
+	margin-right: 2px;
+	padding-top: 0.35em;
+	padding-bottom: 0.625em;
+	padding-left: 0.75em;
+	padding-right: 0.75em;
+	border: 2px groove (internal value);
 }
 
-.thumbnail,.nav {
-  box-shadow: 10px 10px 5px #888888;
+
+.column {
+  float: left;
+  padding: 10px;
+  height: 700px; /* Should be removed. Only for demonstration 
 }
-*/
+
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 75%;
+}

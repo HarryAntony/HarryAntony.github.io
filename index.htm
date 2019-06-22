@@ -23,6 +23,8 @@
                    vid.play(); 
 										 } 
 		</script> 
+		
+		
 
 </head>
 
@@ -31,20 +33,23 @@
 <body>
 
 <nav class="navbar navbar-default">
-	  
-		 <ul class="nav navbar-nav">
-			  <li class="active"> <a href="index.htm">Welcome </a></li>
-			  <li>               <a href="ireservation.htm"> Reservation/Inquiry </a></li>
-			  <li>                (Google Maps) </li>
-			  <li> <a href="ireservation.htm"> Reservation/Inquiry </a></li>
-			   <li> 				 (Safety) </li>
-         </ul>
-        
-	
+	<div class="container">
+		<ul class="nav navbar-nav">
+              <li class="active">  	<a href="index.htm">        Welcome 			</a></li>
+              <li>      		 	<a href="igeolocation.htm">	Geolocation	    	</a></li>
+			  <li>					<a href="ipictures.htm">    Pictures		    </a></li>
+			  <li>					<a href="ireservation.htm">	Inquiry            	</a></li>
+			  <li>	     		 	<a href="inearby.htm">    	Nearby		    	</a></li>
+			  <li>	     			<a href="ihistory.htm">    	History		    	</a></li>
+			  <li>	    		 	<a href="isafety.htm">      Safety			    </a></li>
+              <li> 	             	<a href="iblog.htm">        Blog               	</a></li>
+		</ul>
+    </div>
 </nav>
 
-<div class="container"   >
-	<div class="jumbotron" style="height:300px" >
+
+<div class="jumbotron jumbotron-fluid" style="height:300px" >
+	<div class="container"   >
 	 	<div class="col-md-9">
 			<h1> Welcome to <br>
 			   Maybeury ATV Resort! </h1>
@@ -53,7 +58,7 @@
 			<img src="mimage02.jpg"  alt="Billboard" width="100%" style="float: right; " /> 
 		</div>
 		<div	class="col-md-12">
-			<button    class="btn btn-info" onclick="PlayVideo()" > 
+			<button    class="btn btn-info" onclick="vid.play()" > 
 					  Enjoy your stay with us! 
 			</button>
 		</div>
@@ -61,14 +66,11 @@
 </div>
 		
 	
-</div class="row" height="30%">
-	
-	<div style="padding-left:40%" >		
-		<video id="vid" controls height="400px" max-width="30%"  alt="ATV riders leaving MATV">
+</div style="height:300px">
+			<video class="center" controls  height="350">
 				<source src="video01.mp4" alt="Riders leaving lodge." type="video/mp4"  >
 		</video>
-	</div>
-	
+		
 </div>	
 	
 
