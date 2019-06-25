@@ -19,8 +19,13 @@
 		<script src="jquery.min.js"></script>
 		<script src="jbootstrap.min.js"></script>
 		
+		<script>
 		
-		
+		function playVid() { 
+		var vid = document.getElementById("myVideo");
+					vid.play(); 
+					} 
+		</script>
 
 </head>
 
@@ -55,7 +60,7 @@
 			<img src="mimage02.jpg"  alt="Billboard" width="100%" style="float: right; " /> 
 		</div>
 		<div	class="col-md-12">
-			<button    class="btn btn-info" onclick="vid.play()" > 
+			<button    class="btn btn-info" onclick="playVid()" > 
 					  Enjoy your stay with us! 
 			</button>
 		</div>
@@ -63,13 +68,14 @@
 </div>
 		
 	
-</div style="height:300px">
-			<video class="center" controls  height="350">
-				<source src="video01.mp4" alt="Riders leaving lodge." type="video/mp4"  >
+<div style="height:300px">
+
+		<video id="myVideo" class="center" controls  height="350"
+				src="video01.mp4" alt="Riders leaving lodge" type="video/mp4"  >
 		</video>
 		
 </div>	
 	
-
+</body>
 
 </html>
